@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    margin: 0 aut;
+}
+h2{
+    font-family: "Montserrat", sans-serif;
+}
+h3{
+    font-family: "Montserrat", sans-serif;
+}
+p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 17px;
+}
+a{
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+
+header {
+    width: 1366px;
+    height: 424px;
+    text-align: center;
+    
+}
+nav {
+    width: 1366px;
+    height: 90px;
+    background-color: #2370ED;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: hidden;
+}
+nav a {
+    color: black ;
+    text-decoration: none;
+    padding: 15px;
+    transition: 1s;
+    background-color: #38D4C8;
+    border: solid 5px black;
+    
+    
+}
+nav a:hover {
+    box-shadow: 20px 5px 10px rgb(98, 0, 255);
+    transform: scale(1.2);
+}
+section {
+    width: 1366px;
+    height: 2100px;
+    background-color: #38D4C8;
+    border: solid 5px black;
+    
+}
+section .personaje {
+    width: 650px;
+    height: 500px;
+    background-color: #2370ED;
+    margin-left: 20px;
+    margin-top: 20px;
+    float: left;
+    border: solid 5px black;
+}
+.foto img {
+    width: 100%;
+}
+.personaje .texto {
+    width: 500px;
+    height: 380px;  
+    float: left;
+    margin: 33px;
+    padding: 10px;
+    background-color: #2370ED;
+}
+.mapa {
+    margin-left: 250px;
+    width: 900px;
+    height: 450px;
+    
+}
+footer {
+    width: 1366px;
+    height: 400px;
+}
